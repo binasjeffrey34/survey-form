@@ -1,0 +1,68 @@
+#title{
+  text-align: center; font-family: fantasy; font-size: 70px;
+  text-shadow: white;
+}
+
+#title{
+  transition-duration: 0.4s;
+}
+
+#title:hover {
+    opacity: 0.5;
+}
+
+figcaption{
+  text-align: center; font-style: italic; font-size: 10px; font-family: sans-serif;
+}
+
+.mobile,
+.tablet,
+.PC {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .mobile {
+    display: block;
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .tablet {
+    display: block;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+img{
+  transition-duration: 0.4s;
+}
+img:hover{
+  opacity: 0.5;
+}
+
+button{
+  background-color: black;
+  color: white;
+  box-shadow: white;
+}
+
+button{
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+body{
+  background-color: lightgray;
+}
